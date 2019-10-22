@@ -21,8 +21,8 @@
 #define  MQ2_RO_CLEAN_AIR_FACTOR  9.83
 #define  MQ2_CALIBARAION_SAMPLE_TIMES  5
 #define  MQ2_CALIBRATION_SAMPLE_INTERVAL  50
-#define  MQ2_READ_SAMPLE_TIMES  5
-#define  MQ2_READ_SAMPLE_INTERVAL  50
+#define  MQ2_READ_SAMPLE_TIMES  3
+#define  MQ2_READ_SAMPLE_INTERVAL  10
 #define  MQ2_READ_RATE  5000  //define value reading rate [ms] (applies for sensor reading and also for each gas value calculation)
 
 class MQ2
